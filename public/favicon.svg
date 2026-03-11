@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ps-accent" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#020617"/>
+  <rect x="4.75" y="4.75" width="54.5" height="54.5" rx="15.25" stroke="url(#ps-accent)" stroke-opacity="0.7" stroke-width="1.5"/>
+  <path
+    d="M20 42V22H31C34.866 22 38 25.134 38 29C38 32.866 34.866 36 31 36H24V42H20ZM24 32H31C32.657 32 34 30.657 34 29C34 27.343 32.657 26 31 26H24V32Z"
+    fill="url(#ps-accent)"
+  />
+  <path
+    d="M44 22C48.418 22 52 25.582 52 30C52 34.418 48.418 38 44 38H39.5V34H44C46.209 34 48 32.209 48 30C48 27.791 46.209 26 44 26C42.87 26 41.842 26.469 41.124 27.236L38.5 25.5C39.733 23.973 41.739 22 44 22ZM39.5 38H44C45.13 38 46.158 38.469 46.876 39.236C47.594 40.003 48 40.996 48 42H44.5C44.5 41.448 44.276 41.027 44.01 40.744C43.744 40.461 43.37 40.25 43 40.25H39.5V38Z"
+    fill="url(#ps-accent)"
+  />
+</svg>
+

@@ -1,0 +1,23 @@
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ps-logo-accent" x1="0" y1="0" x2="120" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="30" height="30" rx="10" fill="#020617"/>
+  <rect x="1.75" y="1.75" width="28.5" height="28.5" rx="9.25" stroke="url(#ps-logo-accent)" stroke-opacity="0.85" stroke-width="1.5"/>
+  <path
+    d="M9 23V9H16.5C19.538 9 22 11.462 22 14.5C22 17.538 19.538 20 16.5 20H13V23H9ZM13 17H16.5C17.881 17 19 15.881 19 14.5C19 13.119 17.881 12 16.5 12H13V17Z"
+    fill="url(#ps-logo-accent)"
+  />
+  <path
+    d="M25 9C27.761 9 30 11.239 30 14C30 16.761 27.761 19 25 19H22V16H25C26.105 16 27 15.105 27 14C27 12.895 26.105 12 25 12C24.322 12 23.718 12.308 23.33 12.803L21.5 11.5C22.174 10.599 23.451 9 25 9ZM22 19H25C25.678 19 26.282 19.308 26.67 19.803C27.058 20.298 27.25 20.939 27.25 21.5H24.5C24.5 21.367 24.457 21.254 24.389 21.178C24.32 21.103 24.223 21.05 24.115 21.05H22V19Z"
+    fill="url(#ps-logo-accent)"
+  />
+  <text x="40" y="20" fill="#E5E7EB" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="13" letter-spacing="0.18em">
+    FRONTEND
+  </text>
+</svg>
+
