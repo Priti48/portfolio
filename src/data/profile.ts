@@ -21,169 +21,261 @@ export type ProjectCaseStudy = {
   problem: string;
   solution: string;
   techStack: string[];
+  keyFeatures: string[];
   impact: string[];
 };
 
 export const hero = {
-  name: "Frontend Engineer",
-  title: "Senior Frontend Engineer building scalable, high‑performance React & Next.js applications.",
+  name: "Priti Singh",
+  designation: "Software Engineer (Frontend)",
+  title: "Building scalable React & Next.js applications that ship real value.",
   subtitle:
-    "I design modular architectures, craft reusable component systems, and integrate complex APIs to ship resilient frontends that scale with the product roadmap.",
+    "I architect modular frontend systems, build reusable component libraries, and integrate complex APIs to deliver production-ready UIs across Government EdTech, FinTech, and Travel platforms.",
   location: "India",
+  availability: "Open to Remote & Hybrid · ₹10–12+ LPA",
 };
 
 export const impactMetrics: ImpactMetric[] = [
-  { label: "UX improvement", value: 40, suffix: "%" },
-  { label: "Performance optimization", value: 30, suffix: "%" },
-  { label: "Engagement increase", value: 25, suffix: "%" },
-  { label: "Load time reduction", value: 20, suffix: "%" },
+  { label: "Years of frontend experience", value: 3, suffix: "+" },
+  { label: "Production platforms delivered", value: 6, suffix: "+" },
+  { label: "Industry domains", value: 3 },
+  { label: "User roles & RBAC systems built", value: 4, suffix: "+" },
 ];
 
 export const about = {
   summary:
-    "Over the last 4+ years, I have grown from shipping individual features to architecting React and Next.js platforms in EdTech, Travel, and FinTech. I focus on building systems that are easy to extend, measure, and maintain.",
+    "I'm a Frontend Engineer with 3+ years of experience building production React and Next.js platforms across Government EdTech, FinTech, and Travel. I specialise in scalable component architecture, role-based access systems, and API-driven UIs that serve real users at scale.",
   narrative: [
-    "I started my journey in early frontend roles, learning how to turn product specs into interfaces that users actually enjoy using. Working closely with designers and backend teams, I learned to translate ambiguous requirements into clear components, data contracts, and interaction patterns.",
-    "In the EdTech and FinTech space, I worked on dashboards, onboarding flows, and transactional journeys where reliability and clarity directly impacted revenue and trust. That pushed me to care deeply about performance budgets, meaningful loading states, and edge‑case handling.",
-    "More recently, I have been responsible for React/Next.js architecture: defining folder structures, setting up design systems, and introducing patterns for state management, API integration, and caching. I partner with product managers, designers, and QA engineers in agile squads to iterate quickly while keeping technical debt under control.",
+    "At WebETechies, I spent 2+ years building FinTech and Travel products — Pay2Mobiles (BBPS, AEPS, DMT, mobile recharge) and TripScroll (flights, hotels, buses with seat/meal selection). Working on high-volume transactional UIs sharpened my instincts for state management, form validation, and resilient error handling in flows where every click carries real financial weight.",
+    "At Insphere Solutions, I'm building frontend systems for government-scale EdTech — a platform serving students, volunteer teachers, and multi-level administrators through complex role-based access control and permission-driven dashboards. I also built Inspro, a School ERP with dedicated portals for students, parents, staff, and admins, covering attendance, fees, assignments, leave, and notices.",
+    "Before moving into frontend, I spent 1.5 years as an Android Developer at Quantum Asia (NIC Patna), building government mobile applications for Bihar's field workforce. That grounding in reliability-first development, low-resource environments, and government-scale constraints still informs how I approach frontend engineering today.",
   ],
   collaboration:
-    "I work best in cross‑functional agile teams, where I can pair with designers on UX details, sync with backend engineers on API contracts, and guide junior developers on frontend best practices.",
+    "I work best in cross-functional agile teams — collaborating with designers on UX precision, syncing with backend engineers on API contracts, and writing clean, composable frontends that the whole team can extend confidently.",
 };
 
 export const skills = {
   frontend: [
     "React.js",
-    "Next.js App Router",
+    "Next.js",
     "TypeScript",
     "JavaScript (ES2020+)",
     "HTML5",
-    "CSS3",
+    "CSS3 / SCSS / SASS",
   ],
-  stateManagement: ["Redux", "Redux Toolkit", "React Query", "Context API"],
-  uiFrameworks: ["Tailwind CSS", "Framer Motion", "Material UI", "Ant Design"],
+  stateManagement: [
+    "Redux Toolkit",
+    "Redux",
+    "React Query",
+    "Context API",
+    "React Hooks",
+  ],
+  uiFrameworks: [
+    "Tailwind CSS",
+    "Material UI",
+    "Bootstrap",
+    "Framer Motion",
+  ],
   architecture: [
-    "Modular feature‑based architecture",
+    "Role-based access control (RBAC)",
+    "Modular feature-based architecture",
     "Reusable component libraries",
-    "Design systems",
+    "Permission-based dashboard design",
     "API layer abstraction",
-    "Performance budgeting & profiling",
     "Responsive & accessible UI",
   ],
   tools: [
-    "Git & GitHub",
-    "Jira / Agile boards",
+    "Git · GitHub · Bitbucket",
+    "Jira · Agile workflows",
+    "Postman · REST API testing",
     "Figma handoff & inspection",
     "ESLint & Prettier",
-    "Postman",
   ],
 };
 
 export const experiences: ExperienceItem[] = [
   {
-    company: "Insphere Solution Pvt Ltd",
-    role: "Frontend Engineer",
-    duration: "2023 — Present",
+    company: "Insphere Solutions Pvt. Ltd.",
+    role: "Software Engineer (Frontend)",
+    duration: "Jun 2025 — Present",
     description:
-      "Building scalable React/Next.js platforms in FinTech with a focus on dashboards and high‑traffic transactional flows.",
+      "Building government-scale EdTech platforms and enterprise School ERP systems with complex multi-role hierarchies, permission-based dashboards, and CMS-driven content architecture.",
     achievements: [
-      "Led performance optimization initiatives that reduced key page load times and improved Core Web Vitals.",
-      "Introduced a reusable component library shared across multiple FinTech products, reducing duplication and inconsistencies.",
-      "Collaborated with product and design to refine complex money‑movement journeys with measurable UX improvements.",
+      "Architected RBAC for a Government EdTech platform with 3+ distinct user tiers — students, volunteer teachers, and multi-level admins — each with role-specific onboarding, dashboards, and permission-gated access.",
+      "Built Inspro School ERP from the ground up: four dedicated portals (Student, Parent, Staff, Admin) covering attendance, fee management, leave, assignments, and notices.",
+      "Developed CMS-driven dynamic content platforms using reusable React component patterns, significantly reducing effort for new content page delivery.",
+      "Established structured API integration patterns with typed hooks, consistent loading states, and graceful error handling across all user flows.",
     ],
-    techStack: ["React", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+    techStack: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "React Query",
+      "Tailwind CSS",
+      "Material UI",
+    ],
   },
   {
-    company: "WebETechies Pvt Ltd",
+    company: "WebETechies Pvt. Ltd.",
     role: "Frontend Developer",
-    duration: "2021 — 2023",
+    duration: "Jan 2023 — May 2025",
     description:
-      "Worked on EdTech and Travel platforms, building responsive user journeys and maintaining production applications.",
+      "Built and maintained production FinTech and Travel platforms handling high-volume transactions, multi-step booking flows, and real-time state management for both end users and operators.",
     achievements: [
-      "Implemented modular UI architecture for a travel booking platform, improving feature delivery speed.",
-      "Improved engagement on key learning and booking flows by refining UX and adding data‑driven UI enhancements.",
-      "Partnered with backend teams to define API contracts and handle edge cases gracefully in the UI.",
+      "Developed Pay2Mobiles, a multi-service FinTech platform supporting BBPS bill payments, AEPS cash operations, DMT remittances, and mobile recharges — with real-time transaction feedback, status clarity, and duplicate-submission safeguards.",
+      "Built the Pay2Mobiles Admin console covering user onboarding, Aadhaar-based KYC verification, wallet management, credit/debit controls, and full transaction tracking.",
+      "Delivered TripScroll, a travel booking platform with end-to-end flows for flights, hotels, and buses — including seat selection, meal preferences, fare tracking, and booking management.",
+      "Standardised reusable component patterns (tables, filters, forms, modals) across all products, reducing duplication and accelerating feature delivery.",
     ],
-    techStack: ["React", "JavaScript", "Redux", "REST APIs", "CSS Modules"],
+    techStack: [
+      "React.js",
+      "TypeScript",
+      "JavaScript",
+      "Redux",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Bootstrap",
+      "REST APIs",
+    ],
   },
   {
-    company: "Quantum Asia Pvt Ltd",
-    role: "Frontend Developer",
-    duration: "2019 — 2021",
+    company: "Quantum Asia Pvt. Ltd. (NIC Patna)",
+    role: "Android Application Developer",
+    duration: "Jan 2018 — Jul 2019",
     description:
-      "Contributed to early frontend initiatives, focusing on pixel‑perfect implementations and component reuse.",
+      "Contract role building government mobile applications for Bihar state — focused on offline-capable field data collection and internal workforce management.",
     achievements: [
-      "Migrated legacy UI pieces into reusable React components to reduce maintenance overhead.",
-      "Collaborated in agile sprints with QA and backend teams to ship reliable releases.",
-      "Helped standardize basic coding practices and Git workflows within the team.",
+      "Developed a field data collection app used by Bihar government Sevikas, built for reliability in low-connectivity environments with offline-first data sync.",
+      "Built an internal employee attendance management application with daily tracking, reporting, and admin visibility features.",
+      "Delivered both projects on contract schedule, coordinating directly with NIC Patna's technical team for integration and sign-off.",
     ],
-    techStack: ["React", "JavaScript", "Bootstrap", "jQuery"],
+    techStack: ["Android", "Java", "SQLite", "REST APIs"],
   },
 ];
 
 export const projects: ProjectCaseStudy[] = [
   {
+    id: "edtech-platform",
+    name: "Government EdTech Platform",
+    domain: "EdTech / Government",
+    overview:
+      "A government-scale EdTech platform serving students, volunteer teachers, and multi-level administrators — each with tailored onboarding flows, role-specific dashboards, and permission-gated access.",
+    problem:
+      "A government education programme needed a single frontend system to serve 3+ distinct user types with completely different workflows, data access, and UI requirements — without building separate apps or duplicating business logic.",
+    solution:
+      "Designed a modular RBAC architecture mapping user roles to permission sets, dynamically rendering dashboards and navigation per role. Built shared onboarding primitives (multi-step forms, document upload, verification steps) reused across all user types with role-specific configuration.",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "React Query",
+      "Tailwind CSS",
+    ],
+    keyFeatures: [
+      "Multi-tier RBAC: student, volunteer teacher, and admin hierarchies",
+      "Role-specific onboarding flows with shared component primitives",
+      "Permission-based dashboard rendering per user type",
+      "Volunteer teacher onboarding with verification steps",
+      "Scalable API integration layer with typed hooks and error states",
+    ],
+    impact: [
+      "Single codebase serves 3+ distinct user roles with fully separate experiences",
+      "Shared onboarding components cut duplication and reduced time to add new roles",
+      "Centralised permission architecture makes access changes safe and auditable",
+    ],
+  },
+  {
+    id: "inspro-school-erp",
+    name: "Inspro — School ERP System",
+    domain: "EdTech / Enterprise ERP",
+    overview:
+      "A full-featured School ERP with four dedicated portals — Student, Parent, Staff, and Admin — covering attendance, fee management, assignments, leave, and notices.",
+    problem:
+      "Schools needed a unified system for 4 distinct user groups, each with different daily workflows, data visibility, and management tasks — while keeping the codebase maintainable and the UX intuitive per role.",
+    solution:
+      "Built a multi-portal ERP with shared UI primitives but role-specific route guards, form workflows, and data views. Used Redux Toolkit for cross-portal state and React Query for server-state caching to keep each portal fast and consistent.",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "React Query",
+      "Material UI",
+    ],
+    keyFeatures: [
+      "Four dedicated portals: Student, Parent, Staff, Admin",
+      "Attendance tracking with daily and monthly reporting",
+      "Fee management with payment history and due-date tracking",
+      "Leave and assignment management with approval workflows",
+      "Notices and announcements module across all portals",
+    ],
+    impact: [
+      "Consolidated 4 distinct user workflows into one maintainable codebase",
+      "Shared component library across portals reduced development overhead significantly",
+      "Role-specific route protection ensured data-access security at the UI level",
+    ],
+  },
+  {
     id: "tripscroll",
     name: "TripScroll — Travel Booking Platform",
-    domain: "Travel / SaaS",
+    domain: "Travel / Consumer",
     overview:
-      "TripScroll is a responsive travel booking experience for flights, hotels, and packages, designed for high conversion on both desktop and mobile.",
+      "An end-to-end travel booking platform covering flights, hotels, and buses — with real-time seat selection, meal preferences, fare tracking, and full booking management.",
     problem:
-      "Legacy booking flows were fragmented and slow, leading to drop‑offs during search and checkout on mobile devices.",
+      "Fragmented booking flows across transport and accommodation led to user drop-offs during search and multi-step checkout. Real-time fare changes and seat availability updates caused state inconsistencies and confusion.",
     solution:
-      "Designed a modular React architecture with reusable search, filter, and checkout components. Implemented skeleton states, debounced search, and clear error handling to keep users in flow.",
-    techStack: ["React", "TypeScript", "Redux", "REST APIs", "Tailwind CSS"],
+      "Architected a modular booking flow with clear step separation and persistent booking state. Implemented debounced search, skeleton loading states, real-time fare tracking, and optimistic UI patterns to keep users in flow without disruption.",
+    techStack: [
+      "React.js",
+      "TypeScript",
+      "Redux",
+      "REST APIs",
+      "Tailwind CSS",
+    ],
+    keyFeatures: [
+      "Flight, hotel, and bus booking in a unified platform",
+      "Interactive seat selection UI with live availability indicators",
+      "Meal selection and passenger preference management",
+      "Live fare tracking with change notifications",
+      "Full booking management and itinerary dashboard",
+    ],
     impact: [
-      "Improved task completion for booking flows by ~40%",
-      "Reduced perceived load time on search results via skeletons and incremental data loading",
+      "Modular booking architecture reduced time-to-ship for new travel verticals",
+      "Skeleton states and debounced search improved perceived performance on high-latency search flows",
+      "Consistent error and edge-case handling reduced booking abandonment",
     ],
   },
   {
-    id: "pay2mobiles-retail",
-    name: "Pay2Mobiles — AEPS/DMT Retail Panel",
-    domain: "FinTech / AEPS & DMT",
+    id: "pay2mobiles",
+    name: "Pay2Mobiles — FinTech Platform",
+    domain: "FinTech / Payments",
     overview:
-      "A transaction‑heavy AEPS/DMT retailer panel for agents to perform cash‑in, cash‑out, and remittance operations with confidence.",
+      "A multi-service FinTech platform for retail agents handling BBPS bill payments, AEPS cash operations, DMT remittances, and mobile recharges — paired with a full admin console for operations and compliance.",
     problem:
-      "Agents needed a fast, reliable way to execute high‑volume transactions with clear feedback on success, failure, and settlement status.",
+      "Retail agents executing high-volume financial transactions needed fast, unambiguous UIs with zero tolerance for duplicate submissions or unclear status. Admin teams lacked a unified view for KYC, wallet management, and transaction monitoring.",
     solution:
-      "Built a dashboard with real‑time status indicators, clear transactional histories, and guardrails against duplicate submissions. Introduced consistent form patterns and validation across all flows.",
-    techStack: ["React", "Next.js", "TypeScript", "Redux Toolkit", "REST APIs"],
-    impact: [
-      "Reduced transaction errors by improving validation and UX copy",
-      "Increased agent throughput by making critical actions reachable within 1–2 clicks",
+      "Built the retail panel with real-time status indicators, duplicate-submission guards, and clear transaction history. The admin console consolidates user onboarding, Aadhaar KYC verification, wallet controls, and transaction tracking into reusable table-and-filter components.",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "React Query",
+      "REST APIs",
     ],
-  },
-  {
-    id: "pay2mobiles-admin",
-    name: "Pay2Mobiles — Admin Dashboard",
-    domain: "FinTech / Admin",
-    overview:
-      "An internal admin console for monitoring AEPS/DMT performance, reconciling transactions, and managing users and limits.",
-    problem:
-      "Operations teams lacked a unified, real‑time view of system health and transaction anomalies, slowing down resolution.",
-    solution:
-      "Implemented configurable tables, drill‑down views, and alerting surfaces. Standardized filters, exports, and detail views as reusable building blocks.",
-    techStack: ["React", "Next.js", "TypeScript", "React Query", "Tailwind CSS"],
-    impact: [
-      "Improved time‑to‑insight for operations teams by consolidating key metrics into a single dashboard",
-      "Enabled faster investigation via reusable filter and drill‑down patterns",
+    keyFeatures: [
+      "BBPS, AEPS, DMT, and mobile recharge on a single platform",
+      "Real-time transaction status with failure reasons and retry handling",
+      "Admin: Aadhaar-based KYC verification flow",
+      "Wallet and credit/debit management for agent accounts",
+      "Transaction history with search, filters, and export",
     ],
-  },
-  {
-    id: "loan-portal",
-    name: "Loan Processing Portal",
-    domain: "FinTech / Lending",
-    overview:
-      "A multi‑step loan processing portal covering application intake, document upload, verification, and status tracking.",
-    problem:
-      "Existing loan processing required multiple disjointed tools, causing confusion for both customers and operations teams.",
-    solution:
-      "Designed guided multi‑step flows with progress tracking, contextual validation, and clear document requirements. Integrated with backend APIs for eligibility checks and status updates.",
-    techStack: ["React", "TypeScript", "Redux", "REST APIs"],
     impact: [
-      "Reduced application abandonment by clarifying steps and requirements",
-      "Decreased support queries by surfacing real‑time status and next best actions",
+      "Reduced transaction errors through strict validation, status clarity, and duplicate guards",
+      "Consolidated admin operations into one dashboard, improving ops-team response time",
+      "Reusable table and filter components accelerated delivery of new admin features",
     ],
   },
 ];
@@ -191,45 +283,44 @@ export const projects: ProjectCaseStudy[] = [
 export const architectureThinking = {
   pillars: [
     {
-      title: "Reusable component design",
+      title: "RBAC & permission-driven UI",
       description:
-        "I design components as part of a system, not single screens — with clear responsibilities, composition patterns, and props contracts that make future features cheaper to ship.",
+        "I treat access control as a first-class frontend concern — mapping roles to permissions centrally and letting the UI render dynamically from those rules rather than scattering conditionals through components.",
       bullets: [
-        "Establish UI primitives (layout, typography, buttons, cards) that scale across products.",
-        "Standardize form, table, and modal patterns to keep UX consistent and reduce rework.",
-        "Document component usage and constraints to make onboarding new developers easier.",
+        "Map user roles to permission sets at the API layer, not hardcoded in JSX.",
+        "Drive navigation, dashboard layout, and route guards from a single permission context.",
+        "Keep access logic centralised so any permission change reflects consistently across the app.",
       ],
     },
     {
-      title: "Redux & state optimization",
+      title: "Reusable component architecture",
       description:
-        "I use Redux and modern data libraries where they add clarity, keeping local and server state separate and predictable.",
+        "I design components as part of a system — with clear responsibilities, composition patterns, and prop contracts that make new features cheaper to ship and existing ones easier to maintain.",
       bullets: [
-        "Normalize complex data in Redux to avoid duplication and stale caches.",
-        "Use slices and selectors to keep components lean and testable.",
-        "Leverage React Query or similar tools for server state where appropriate.",
+        "Establish shared primitives (forms, tables, modals, layouts) reused across product verticals.",
+        "Standardise multi-step form, filter, and data-table patterns to eliminate per-feature rework.",
+        "Keep component APIs narrow and composable so they stay reusable as requirements evolve.",
       ],
     },
     {
-      title: "API and caching strategy",
+      title: "State management strategy",
       description:
-        "I treat the API layer as a first‑class part of the frontend architecture, with clear abstractions and caching strategies.",
+        "I keep client state and server state separated by concern — Redux Toolkit for global UI/auth state, React Query for server-state caching and invalidation, and local state for everything else.",
       bullets: [
-        "Abstract API calls behind typed client utilities or hooks.",
-        "Use caching and invalidation rules to minimize over‑fetching.",
-        "Design loading and error states that keep users informed without overwhelming them.",
+        "Use Redux Toolkit slices for auth, permissions, and cross-component UI state.",
+        "Use React Query for data fetching with explicit stale-time policies and background refetch.",
+        "Keep component-local state local — only lift what genuinely needs to be shared.",
       ],
     },
     {
-      title: "Performance & DX",
+      title: "API integration & resilience",
       description:
-        "I profile what matters, define budgets, and use modern tooling so teams can ship quickly without sacrificing quality.",
+        "I abstract the API layer behind typed hooks and service utilities, and design loading, empty, and error states as first-class parts of every data-dependent surface.",
       bullets: [
-        "Measure performance with Lighthouse and browser devtools, focusing on real user journeys.",
-        "Use code‑splitting, lazy loading, and memoization where they offer meaningful wins.",
-        "Keep the project structure predictable so teams can navigate and extend it confidently.",
+        "Abstract all API calls behind typed hooks — no raw fetch scattered through components.",
+        "Design loading, empty, error, and stale states for every data-dependent UI surface.",
+        "Use optimistic updates and retries where they meaningfully reduce perceived friction.",
       ],
     },
   ],
 };
-

@@ -14,15 +14,37 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Frontend Engineer Portfolio | React • Next.js • TypeScript",
+  title: "Priti Singh | Frontend Engineer — React, Next.js & TypeScript",
   description:
-    "Senior Frontend Engineer with 4+ years building scalable, high-performance React and Next.js applications across EdTech, Travel, and FinTech.",
-  metadataBase: new URL("https://example.com"),
+    "Software Engineer (Frontend) with 3+ years building scalable React and Next.js applications across Government EdTech, FinTech, and Travel. Specialising in RBAC systems, reusable component architecture, and API-driven UIs. Open to Remote and Hybrid roles.",
+  metadataBase: new URL("https://priti-portfolio-five.vercel.app"),
+  keywords: [
+    "Priti Singh",
+    "Frontend Engineer",
+    "React Developer",
+    "Next.js Developer",
+    "TypeScript Developer",
+    "Software Engineer Frontend",
+    "React.js",
+    "Redux Toolkit",
+    "React Query",
+    "RBAC frontend",
+    "Frontend Portfolio India",
+    "Remote Frontend Developer",
+    "Hybrid Frontend Developer",
+  ],
   openGraph: {
-    title: "Frontend Engineer Portfolio",
+    title: "Priti Singh | Frontend Engineer — React, Next.js & TypeScript",
     description:
-      "Scalable React/Next.js platforms, performance optimization, and reusable architecture for real-world products.",
+      "3+ years building production React/Next.js platforms across EdTech, FinTech, and Travel. Specialising in RBAC, reusable component systems, and API-driven UIs. Open to Remote & Hybrid roles.",
     type: "website",
+    url: "https://priti-portfolio-five.vercel.app",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Priti Singh | Frontend Engineer — React, Next.js & TypeScript",
+    description:
+      "3+ years building production React/Next.js platforms. Open to remote & hybrid Frontend Engineer roles.",
   },
   icons: {
     icon: [

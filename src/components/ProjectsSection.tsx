@@ -139,6 +139,22 @@ const ProjectModal = ({ project, onClose }: ModalProps) => {
             </div>
           </section>
 
+          {project.keyFeatures && project.keyFeatures.length > 0 && (
+            <section>
+              <h4 className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">
+                Key features
+              </h4>
+              <ul className="mt-2 space-y-1.5 text-[13px] text-slate-300">
+                {project.keyFeatures.map((item) => (
+                  <li key={item.slice(0, 40)} className="flex gap-2">
+                    <span className="mt-[6px] h-1 w-1 shrink-0 rounded-full bg-emerald-400/70" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           <section className="grid gap-4 sm:grid-cols-2">
             <div>
               <h4 className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">
@@ -162,7 +178,7 @@ const ProjectModal = ({ project, onClose }: ModalProps) => {
               <ul className="mt-2 space-y-1.5 text-[13px] text-slate-300">
                 {project.impact.map((item) => (
                   <li key={item.slice(0, 40)} className="flex gap-2">
-                    <span className="mt-[6px] h-1 w-1 rounded-full bg-slate-400" />
+                    <span className="mt-[6px] h-1 w-1 shrink-0 rounded-full bg-slate-400" />
                     <span>{item}</span>
                   </li>
                 ))}

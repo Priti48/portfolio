@@ -65,7 +65,7 @@ export default function Home() {
 
         <Section
           id="hero"
-          eyebrow="Senior Frontend Engineer"
+          eyebrow="Software Engineer · Frontend"
           title={hero.title}
           description={hero.subtitle}
         >
@@ -77,10 +77,10 @@ export default function Home() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.05, type: "spring", stiffness: 130, damping: 20 }}
               >
-                I&apos;ve spent the last 4+ years building production React and
-                Next.js platforms across EdTech, Travel, and FinTech—focusing on
-                scalable architecture, performance, and the details that turn
-                flows into products.
+                Over 3+ years I&apos;ve shipped production React and Next.js platforms
+                across Government EdTech, FinTech, and Travel — building
+                role-based access systems, transactional UIs, and reusable
+                component libraries that teams can extend without friction.
               </motion.p>
 
               <motion.div
@@ -125,13 +125,13 @@ export default function Home() {
               >
                 <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-3 py-1 text-emerald-200">
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                  4+ years · React &amp; Next.js
+                  3+ years · React &amp; Next.js
                 </span>
                 <span className="inline-flex items-center gap-1 rounded-full bg-slate-900/70 px-3 py-1">
-                  FinTech · Travel · EdTech
+                  EdTech · FinTech · Travel
                 </span>
                 <span className="inline-flex items-center gap-1 rounded-full bg-slate-900/70 px-3 py-1">
-                  Modular architecture · API‑driven UI
+                  Remote &amp; Hybrid · ₹10–12+ LPA
                 </span>
               </motion.div>
             </div>
@@ -148,28 +148,28 @@ export default function Home() {
                   <div className="flex items-center justify-between gap-3">
                     <div>
                       <p className="text-xs font-medium text-slate-400">
-                        Current focus
+                        {hero.name}
                       </p>
                       <p className="text-sm font-semibold text-slate-100">
-                        Product‑driven frontend engineering
+                        {hero.designation}
                       </p>
                     </div>
                     <span className="inline-flex items-center rounded-full bg-slate-800/90 px-2 py-1 text-[11px] text-slate-300">
-                      Based in {hero.location}
+                      {hero.location}
                     </span>
                   </div>
                   <div className="grid gap-2 text-[11px] text-slate-300">
                     <p>
-                      • Scalable React/Next.js platforms with clean boundaries
-                      between UI, state, and data.
+                      • RBAC systems &amp; permission-based dashboards for
+                      multi-role government EdTech platforms.
                     </p>
                     <p>
-                      • Performance‑first mindset: measuring, profiling, and
-                      iterating based on real journeys.
+                      • High-volume transactional UIs in FinTech: AEPS, DMT,
+                      BBPS, and wallet management.
                     </p>
                     <p>
-                      • Tight collaboration with product, design, and backend teams
-                      in agile environments.
+                      • Reusable component libraries that scale across products
+                      and accelerate team delivery.
                     </p>
                   </div>
                 </div>
@@ -180,9 +180,9 @@ export default function Home() {
 
         <Section
           id="impact"
-          eyebrow="Impact"
-          title="Making measurable improvements, not just components."
-          description="I care about the numbers behind the UI—how quickly users complete tasks, how often they come back, and how reliable the experience feels in production."
+          eyebrow="At a glance"
+          title="Frontend experience across 3 industries, 6+ platforms."
+          description="Government EdTech, FinTech payments, and Travel booking — each domain sharpened a different set of skills in architecture, state management, and UX resilience."
         >
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {impactMetrics.map((metric) => (
@@ -194,7 +194,7 @@ export default function Home() {
         <Section
           id="about"
           eyebrow="About"
-          title="From early feature work to platform‑level ownership."
+          title="Product-focused engineering across EdTech, FinTech, and Travel."
         >
           <div className="space-y-4 text-sm leading-relaxed text-slate-300/90 sm:text-[15px]">
             <p>{about.summary}</p>
@@ -209,8 +209,8 @@ export default function Home() {
 
         <Section
           id="skills"
-          eyebrow="Stack"
-          title="Skills that support product velocity."
+          eyebrow="Tech Stack"
+          title="Full-stack frontend skills across modern React ecosystems."
         >
           <div className="grid gap-4 md:grid-cols-2">
             <div className="space-y-4">
@@ -231,7 +231,7 @@ export default function Home() {
         <Section
           id="experience"
           eyebrow="Experience"
-          title="Experience across EdTech, Travel, and FinTech."
+          title="3+ years frontend · 1.5 years Android · 3 companies."
         >
           <div className="relative">
             <div className="absolute left-3 top-0 bottom-0 hidden w-px bg-gradient-to-b from-emerald-400/60 via-slate-700/80 to-transparent sm:block" />
@@ -286,16 +286,16 @@ export default function Home() {
         <Section
           id="projects"
           eyebrow="Case studies"
-          title="Real products, real users, measurable outcomes."
-          description="A selection of platforms and dashboards I’ve delivered—from travel booking to AEPS/DMT panels and loan processing portals."
+          title="Real products, real users, production outcomes."
+          description="Government EdTech with RBAC, a full School ERP, a FinTech payments platform, and a multi-vertical travel booking engine — all shipped to production."
         >
           <ProjectsSection projects={projects} />
         </Section>
 
         <Section
           id="architecture"
-          eyebrow="Architecture thinking"
-          title="How I think about frontend systems."
+          eyebrow="Engineering approach"
+          title="How I think about scalable frontend systems."
         >
           <div className="grid gap-4 md:grid-cols-2">
             {architectureThinking.pillars.map((pillar) => (
@@ -330,7 +330,7 @@ export default function Home() {
         <Section
           id="contact"
           eyebrow="Contact"
-          title="Let’s talk about building the next release."
+          title="Open to remote & hybrid Frontend Engineer roles."
         >
           <div className="grid gap-8 md:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] md:items-start">
             <motion.form
@@ -363,7 +363,7 @@ export default function Home() {
                   <Field label="Email" name="email" type="email" required />
                 </div>
                 <Field
-                  label="How can I help?"
+                  label="Role / Opportunity"
                   name="message"
                   textarea
                   required
@@ -386,13 +386,17 @@ export default function Home() {
               transition={{ delay: 0.05, type: "spring", stiffness: 130, damping: 22 }}
             >
               <p>
-                I&apos;m interested in roles where frontend engineering sits close
-                to product—shaping roadmaps, refining UX, and shipping
-                production‑ready React/Next.js platforms.
+                I&apos;m actively looking for Remote and Hybrid Frontend Engineer
+                roles — React, Next.js, or TypeScript-heavy products where
+                frontend sits close to the business, and shipping quality
+                matters as much as shipping fast.
+              </p>
+              <p className="text-[13px] text-slate-400">
+                Target: ₹10–12+ LPA · Available immediately
               </p>
               <div className="space-y-2 text-sm">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">
-                  Direct
+                  Reach me directly
                 </p>
                 <div className="space-y-1 text-[13px]">
                   <a
