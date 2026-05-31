@@ -131,7 +131,7 @@ export default function Home() {
                   EdTech · FinTech · Travel
                 </span>
                 <span className="inline-flex items-center gap-1 rounded-full bg-slate-900/70 px-3 py-1">
-                  Remote &amp; Hybrid &amp; Onsite
+                  Remote, Hybrid &amp; Onsite
                 </span>
               </motion.div>
             </div>
