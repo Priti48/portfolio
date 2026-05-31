@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Priti Singh | Frontend Engineer — React, Next.js & TypeScript",
     description:
-      "3+ years building production React/Next.js platforms across EdTech, FinTech, and Travel. Specialising in RBAC, reusable component systems, and API-driven UIs. Open to Remote & Hybrid roles.",
+      "3+ years building production React/Next.js platforms across EdTech, FinTech, and Travel. Specialising in RBAC, reusable component systems, and API-driven UIs. Open to Remote, Hybrid & Onsite roles.",
     type: "website",
     url: "https://priti-portfolio-five.vercel.app",
   },
