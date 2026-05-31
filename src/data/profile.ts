@@ -32,7 +32,7 @@ export const hero = {
   subtitle:
     "I architect modular frontend systems, build reusable component libraries, and integrate complex APIs to deliver production-ready UIs across Government EdTech, FinTech, and Travel platforms.",
   location: "India",
-  availability: "Open to Remote & Hybrid · ₹10–12+ LPA",
+  // availability: "Open to Remote & Hybrid · ₹10–12+ LPA",
 };
 
 export const impactMetrics: ImpactMetric[] = [

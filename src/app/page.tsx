@@ -330,7 +330,7 @@ export default function Home() {
         <Section
           id="contact"
           eyebrow="Contact"
-          title="Open to remote & hybrid Frontend Engineer roles."
+          title="Open to remote, hybrid & onsiteFrontend Engineer roles."
         >
           <div className="grid gap-8 md:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] md:items-start">
             <motion.form
@@ -391,9 +391,9 @@ export default function Home() {
                 frontend sits close to the business, and shipping quality
                 matters as much as shipping fast.
               </p>
-              <p className="text-[13px] text-slate-400">
+              {/* <p className="text-[13px] text-slate-400">
                 Target: ₹10–12+ LPA · Available immediately
-              </p>
+              </p> */}
               <div className="space-y-2 text-sm">
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">
                   Reach me directly

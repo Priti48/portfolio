@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Priti Singh | Frontend Engineer — React, Next.js & TypeScript",
     description:
-      "3+ years building production React/Next.js platforms. Open to remote & hybrid Frontend Engineer roles.",
+      "3+ years building production React/Next.js platforms. Open to remote , hybrid & onsite Frontend Engineer roles.",
   },
   icons: {
     icon: [
