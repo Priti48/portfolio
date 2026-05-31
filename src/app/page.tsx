@@ -131,7 +131,7 @@ export default function Home() {
                   EdTech · FinTech · Travel
                 </span>
                 <span className="inline-flex items-center gap-1 rounded-full bg-slate-900/70 px-3 py-1">
-                  Remote &amp; Hybrid · ₹10–12+ LPA
+                  Remote &amp; Hybrid &amp; Onsite
                 </span>
               </motion.div>
             </div>
@@ -330,7 +330,7 @@ export default function Home() {
         <Section
           id="contact"
           eyebrow="Contact"
-          title="Open to remote, hybrid & onsiteFrontend Engineer roles."
+          title="Open to remote, hybrid & onsite Frontend Engineer roles."
         >
           <div className="grid gap-8 md:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] md:items-start">
             <motion.form
@@ -386,7 +386,7 @@ export default function Home() {
               transition={{ delay: 0.05, type: "spring", stiffness: 130, damping: 22 }}
             >
               <p>
-                I&apos;m actively looking for Remote and Hybrid Frontend Engineer
+                I&apos;m actively looking for Remote. Hybrid and Onsite Frontend Engineer
                 roles — React, Next.js, or TypeScript-heavy products where
                 frontend sits close to the business, and shipping quality
                 matters as much as shipping fast.
